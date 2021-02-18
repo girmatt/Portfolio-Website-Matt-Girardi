@@ -12,85 +12,96 @@
 	<title id="title">About me</title>
 </head>
 <body>
-	<header id="header">
-		<div>
-			<img src="img/logo/logo.png" alt="My Image" width="200px" >
-			<nav>
-					<ul>
-						<li><a href="index.html">Work</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-			</nav>
+	<header>
+		<div id="navContainer">
+			<div id="logo"> 
+				<img src="img/logo/logo.png" alt="My Image" width="200px" >
+			</div>
+			<div id="nav">
+				<nav>
+						<ul>
+							<li><a href="index.html">Work</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
 
 	<!-- NEW Section -->
-	<main>
-		<div id="about">
-			<h1>About</h1>
-			<div id="My_photo">
-				<picture srcset="img/myphoto.jpg" media="(max-width:767px)"/> </picture>
+<main>
+	<div id="about">
+		<h1>About</h1>
+		<div id="myPhoto">
+			<picture srcset="img/myphoto.jpg" media="(max-width:767px)"/> </picture>
+		</div>
+	</div>
+	<div id="aboutMeContainer">
+		<h2>My Story</h2>
+		<p>
+			Hey, I'm Matt. I'm a UI/UX designer based in Detroit, MI. I enjoy creating things for people.
+		</p>
+		<a href="files/MattGirardi_resume.pdf" class="button "target="_blank" download>Download My Resume</a>
+		<h2>Skills & Tools</h2>
+		<div id="skillsToolsContainer">
+			<div id="skills">
+				<h3>Skills</h3>
+				<ul>
+					<li>Rapid Prototyping</li>
+					<li>Wireframing</li>
+					<li>Prototyping</li>
+					<li>Iconagraphy</li>
+					<li>User Research</li>
+					<li>User Testing</li>
+					<li>Layout Design</li>
+					<li>UI Styling</li>
+				</ul>
+			</div>
+			<div id="tools">
+				<h3>Tools</h3>
+				<ul>
+					<li>Adobe XD</li>
+					<li>Adobe Illustrator</li>
+					<li>Adobe Photoshop</li>
+					<li>Adobe InDesign</li>
+					<li>Sketch</li>
+					<li>Invision</li>
+					<li>Jira</li>
+				</ul>
 			</div>
 		</div>
-		<div id="aboutme">
-			<h2>My Story</h2>
-			<p>
-				Hey, I'm Matt. I'm a UI/UX designer based in Detroit, MI. I enjoy creating things for people.
-			</p>
-			<a href="files/MattGirardi_resume.pdf" class="button "target="_blank" download>Download My Resume</a>
-			<h2>Skills & Tools</h2>
-			<div>
-				<div>
-					<h3>Skills</h3>
-					<ul>
-						<li>Rapid Prototyping</li>
-						<li>Wireframing</li>
-						<li>Prototyping</li>
-						<li>Iconagraphy</li>
-						<li>User Research</li>
-						<li>User Testing</li>
-						<li>Layout Design</li>
-						<li>UI Styling</li>
-					</ul>
-				</div>
-				<div>
-					<h3>Tools</h3>
-					<ul>
-						<li>Adobe XD</li>
-						<li>Adobe Illustrator</li>
-						<li>Adobe Photoshop</li>
-						<li>Adobe InDesign</li>
-						<li>Sketch</li>
-						<li>Invision</li>
-						<li>Jira</li>
-					</ul>
-				</div>
+	</div>
+</main>
+<footer id="contact">
+	<div>
+			<h2>contact me</h2>
+			<p>If you have questions regarding designs or just want to chat, I'm available!</p>
+			<div id="emailCall">
+				<p>
+					<a href="mailto:matt@mattgirardi.com" class="button">email</a> 
+					or call me up @
+					<a href="+1 3134104924" class="button">+1 3134104924</a>
+				</p>
 			</div>
-		</div>
-	</main>
-	<footer id="contact">
-            <div>
-                <div>
-                    <h2>Contact Me</h2>
-                    <p>I'm always around to chat!</p>
-                </div>
-                <div>
-                    <a href="mailto:girmatt@gmail.com">Email me</a>
-                </div>
-               <div>
-						<a href="https://www.behance.net/matthewgirardi" target="_blank">
-							<img src="img/social icons/behance.png" alt="My Image" width="42px">
-						</a>
-						<a href="instagram.com/mattgirardi_design" target="_blank">
-							<img src="img/social icons/instagram.png" alt="My Image" width="42px">
-						</a>
-						<a href="https://open.spotify.com/user/girmatt?si=DwOYFRieTjqjwL_Z3pgImg" target="_blank">
-							<img src="img/social icons/spotify.png" alt="My Image" width="42px">
-						</a>
-					</div>
-                <p>Copyright Matt Girardi 2021</p>
-            </div>
-        </footer>
+		
+			
+			<!-- Social Media Icons -->
+			<div id="socialLinks">
+				<a href="https://www.behance.net/matthewgirardi" target="_blank" class="socialicon">
+					<img src="img/social icons/behance.png" alt="My Image" width="42px">
+				</a>
+				<a href="instagram.com/mattgirardi_design" target="_blank">
+					<img src="img/social icons/instagram.png" alt="My Image" width="42px">
+				</a>
+				<a href="https://open.spotify.com/user/girmatt?si=DwOYFRieTjqjwL_Z3pgImg" target="_blank">
+					<img src="img/social icons/spotify.png" alt="My Image" width="42px">
+				</a>
+			</div>
+			<div id="copyright">
+				<p>Copyright MATT GIRARDI 2020</p>
+			</div>
+	</div>
+</footer>
 
 </html>

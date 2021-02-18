@@ -14,24 +14,28 @@
 </head>
 <main>
 	<body>
-		<header id="header">
-			<div>
-				<img src="img/logo/logo.png" alt="My Image" width="200px" >
-				<nav>
-						<ul>
-							<li><a href="index.html">Work</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-				</nav>
+		<header>
+			<div id="navContainer">
+				<div id="logo"> 
+					<img src="img/logo/logo.png" alt="My Image" width="200px" >
+				</div>
+				<div id="nav">
+					<nav>
+							<ul>
+								<li><a href="index.html">Work</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+					</nav>
+				</div>
 			</div>
 		</header>
 	</body>
-	<div>
-		<div>
+	<div id="workContainer">
+		<div id="workTitle">
 			<h2>My Work</h2>
 		</div>
-		<div>
+		<div id="project">
 			<picture>
 				<source srcset="img/projects/openradio/1.jpg" media="(max-width:767px)">
 				<img src="img/projects/openradio/1.jpg" alt="My Image" width="400px">
@@ -45,36 +49,35 @@
 		</div>
 	</div>
 </main>
-</html>
-	<footer id="contact">
-			<div>
-					<h2>contact me</h2>
-					<p>If you have questions regarding designs or just want to chat, I'm available!</p>
-					<div>
-						<p>
-							<a href="mailto:matt@mattgirardi.com" class="button">email</a> 
-							or call me up @
-							<a href="+1 3134104924" class="button">+1 3134104924</a>
-						</p>
-					</div>
-				
-					
-					<!-- Social Media Icons -->
-					<div>
-						<a href="https://www.behance.net/matthewgirardi" target="_blank" class="socialicon">
-							<img src="img/social icons/behance.png" alt="My Image" width="42px">
-						</a>
-						<a href="instagram.com/mattgirardi_design" target="_blank">
-							<img src="img/social icons/instagram.png" alt="My Image" width="42px">
-						</a>
-						<a href="https://open.spotify.com/user/girmatt?si=DwOYFRieTjqjwL_Z3pgImg" target="_blank">
-							<img src="img/social icons/spotify.png" alt="My Image" width="42px">
-						</a>
-					</div>
-					<div>
-						<p>Copyright MATT GIRARDI 2020</p>
-					</div>
+<footer id="contact">
+	<div>
+			<h2>contact me</h2>
+			<p>If you have questions regarding designs or just want to chat, I'm available!</p>
+			<div id="emailCall">
+				<p>
+					<a href="mailto:matt@mattgirardi.com" class="button">email</a> 
+					or call me up @
+					<a href="+1 3134104924" class="button">+1 3134104924</a>
+				</p>
 			</div>
-		</footer>
+		
+			
+			<!-- Social Media Icons -->
+			<div id="socialLinks">
+				<a href="https://www.behance.net/matthewgirardi" target="_blank" class="socialicon">
+					<img src="img/social icons/behance.png" alt="My Image" width="42px">
+				</a>
+				<a href="instagram.com/mattgirardi_design" target="_blank">
+					<img src="img/social icons/instagram.png" alt="My Image" width="42px">
+				</a>
+				<a href="https://open.spotify.com/user/girmatt?si=DwOYFRieTjqjwL_Z3pgImg" target="_blank">
+					<img src="img/social icons/spotify.png" alt="My Image" width="42px">
+				</a>
+			</div>
+			<div id="copyright">
+				<p>Copyright MATT GIRARDI 2020</p>
+			</div>
+	</div>
+</footer>
 
 </html>
