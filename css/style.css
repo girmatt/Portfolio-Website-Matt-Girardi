@@ -1,3 +1,19 @@
+/*Containers*/
+
+header {
+	background-color: #ffffff;
+	padding: 10px 5px 15px 5px;
+	margin: 10px;
+	border-bottom: 3px solid #2424c6;
+}
+
+
+
+header li {
+	display: inline;
+}
+
+
 /* Font Styling */
 
 body {
@@ -43,6 +59,9 @@ img.project {
   width: 100%;
 }
 
+
+
+/*Button Styling*/
 
 .button {
   color: #2424c6;
