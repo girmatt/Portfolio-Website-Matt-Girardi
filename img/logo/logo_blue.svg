@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206.529" height="151.63" viewBox="0 0 206.529 151.63">
+  <g id="Group_1" data-name="Group 1" transform="translate(-241.987 -5.741)">
+    <path id="Path_2" data-name="Path 2" d="M330.757,522.429c-3.655-19.977,10.156-54.134,27.038-72.531s45.6-21.566,74.809-24.561,60.305,29.886,60.305,29.886,24.859,43.712,4.954,69.593-42.8,34.526-84.572,33.93S334.412,542.406,330.757,522.429Z" transform="translate(-66.07 -410.403)" fill="#4075ff"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(241.987 44.359)" fill="none" stroke="#0f0f0f" stroke-width="1">
+      <rect width="164" height="73" stroke="none"/>
+      <rect x="0.5" y="0.5" width="163" height="72" fill="none"/>
+    </g>
+    <text id="girardi" transform="translate(388.987 102.359)" fill="#0f0f0f" font-size="25" font-family="Cousine-Regular, Cousine"><tspan x="-105.017" y="0">girardi</tspan></text>
+    <line id="Line_6" data-name="Line 6" x2="87.7" transform="translate(300.787 101.509)" fill="none" stroke="#0f0f0f" stroke-width="5.9"/>
+  </g>
+</svg>

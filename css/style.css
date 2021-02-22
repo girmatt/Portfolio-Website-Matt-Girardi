@@ -4,7 +4,7 @@ header {
 	background-color: #ffffff;
 	padding: 10px 5px 15px 5px;
 	margin: 10px;
-	border-bottom: 3px solid #2424c6;
+	border-bottom: 3px solid #4075FF;
 }
 
 
@@ -31,19 +31,19 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700;
-  color: #2424c6;
+  color: #4075FF;
 }
 
 h2 {
   font-size: 2.25em;
   font-weight: 700;
-  color: #2424c6;
+  color: #4075FF;
 }
 
 h3 {
   font-size: 1.35em;
   font-weight: 700;
-  color: #2424c6;
+  color: #4075FF;
   text-decoration: underline;
 }
 h4 {
@@ -67,9 +67,9 @@ img.project {
 /*Button Styling*/
 
 .button {
-  color: #2424c6;
+  color: #4075FF;
   text-decoration: none;
-  border: 2px solid #2424c6;
+  border: 2px solid #4075FF;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -77,8 +77,8 @@ img.project {
 }
 
 .button:hover {
-  color: #ffffff;
-  background-color: #2424c6;
+  color: #000000;
+  background-color: #4075FF;
   text-decoration: underline;
   padding-left: 5px;
   padding-right: 5px;
