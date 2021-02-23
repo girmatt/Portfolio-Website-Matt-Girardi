@@ -96,6 +96,28 @@ header li {
 	display: inline;
 }
 
+#contact #emailCall{
+  background-color: #000000;
+  margin: 0px auto;
+  text-align: left;
+  padding-bottom: 10px;
+
+}
+
+#contact p{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 25px 25px 0px;
+}
+
+#socialLinks {
+  margin: 20px 25px;
+}
+
+
+
 
 /* Font Styling */
 
@@ -141,6 +163,9 @@ p {
   font-weight: 100;
   font-size: 1em;
 }
+a{
+
+}
 
 .titlestyleName{
   text-decoration: underline;
@@ -170,6 +195,13 @@ p {
 
 #logo {
   width: 215px;
+}
+
+#myphoto{
+  padding-left: 25px;
+}
+#myPhoto img{
+  max-width: 100%;
 }
 
 
