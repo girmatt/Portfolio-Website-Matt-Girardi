@@ -5,7 +5,7 @@ main {
 }
 header {
 	background-color: #000000;
-	padding: 10px 10px 1px 10px;
+	padding: 10px 10px 1px 25px;
 	margin: 0px;
 	border-bottom: 3px solid #d3d3d3;
 	border-bottom: 2px solid #d3d3d3;
@@ -33,7 +33,7 @@ header {
 
 nav > ul {
   list-style-type: none;
-  padding: 0 25px;
+  padding: 0px;
 }
 
 nav > ul > li > a {
@@ -49,8 +49,13 @@ nav > ul > li > a {
   width: 100%;
   text-align: center;
 }
-#hero h3 {
-  width: 95%;
+#hero p {
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-top: 19px;
+  padding-left: 25px;
 }
 
 .projectinfo_openradio{
@@ -65,11 +70,13 @@ nav > ul > li > a {
   color: #000000;
   text-decoration: none;
   padding-bottom: 0px;
+  padding-left: 25px;
 }
 .projectinfo_openradio p{
   color: #000000;
   padding-top: 0px;
   font-size: .8em;
+  padding-left: 25px;
 }
 
 .projectinfo_pocket{
@@ -84,11 +91,13 @@ nav > ul > li > a {
   color: #000000;
   text-decoration: none;
   padding-bottom: 0px;
+  padding-left: 25px;
 }
 .projectinfo_pocket p{
   color: #000000;
   padding-top: 0px;
   font-size: .8em;
+  padding-left: 25px;
 }
 
 
@@ -96,24 +105,32 @@ header li {
 	display: inline;
 }
 
+#contact{
+  padding-left: 25px;
+}
+
 #contact #emailCall{
   background-color: #000000;
   margin: 0px auto;
   text-align: left;
   padding-bottom: 10px;
-
 }
 
-#contact p{
-  text-decoration: none;
+#contact .contactme{
+  text-decoration: underline;
   color: #ffffff;
   font-weight: 300;
   font-size: 1em;
-  padding: 25px 25px 0px;
+  padding: 25px 0px 10px;
 }
 
 #socialLinks {
-  margin: 20px 25px;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+#aboutMeContainer{
+  margin-left: 25px;
 }
 
 
@@ -122,7 +139,7 @@ header li {
 /* Font Styling */
 
 body {
-  background-color: #f5f5f5;
+  background-color: #000000;
   font-family: 'cousine', monospace;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -133,7 +150,7 @@ body {
 h1, h2, h3, h4, p {
   line-height: 1.4;
   margin: 0px;
-  padding: 10px 25px 15px 25px;
+  padding: 10px 25px 20px 0px;
   text-align: left;
 }
 h1 {
@@ -160,11 +177,15 @@ h4 {
   font-weight: 400;
 }
 p {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1em;
+  color: #ffffff;
 }
-a{
-
+li{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 .titlestyleName{
@@ -172,7 +193,7 @@ a{
   color: #ffffff;
   font-weight: 300;
   font-size: 1em;
-  padding: 25px 25px 0px;
+  padding: 25px 0px 0px;
 }
 .titlestyle{
   color: #ffffff;
@@ -226,4 +247,8 @@ a{
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 3px;
+}
+
+.download .button{
+  margin-left: 25px;
 }
