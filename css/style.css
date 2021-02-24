@@ -5,7 +5,7 @@ main {
 }
 header {
 	background-color: #000000;
-	padding: 10px 10px 1px 25px;
+	padding: 10px 10px 10px 25px;
 	margin: 0px;
 	border-bottom: 3px solid #d3d3d3;
 	border-bottom: 2px solid #d3d3d3;
@@ -42,6 +42,10 @@ nav > ul > li > a {
   color: #d3d3d3;
 }
 
+#nav{
+  text-align: right;
+}
+
 #hero {
   background-color: #000000;
   padding: 20px, 0;
@@ -56,6 +60,29 @@ nav > ul > li > a {
   font-size: 1.5em;
   padding-top: 19px;
   padding-left: 25px;
+}
+
+
+ul{
+  display: inline;
+  list-style-type: none;
+}
+
+.projectTitle p{
+  text-align: left;
+  display: inline;
+  font-weight: 300;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.projectInfo a{
+  text-align: right;
+  display: list-item;
+  font-weight: 300;
+  font-size: .8em;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .projectinfo_openradio{
@@ -103,6 +130,11 @@ nav > ul > li > a {
 
 header li {
 	display: inline;
+}
+
+footer{
+  border-top: 3px solid #d3d3d3;
+  border-top: 2px solid #d3d3d3;
 }
 
 #contact{
