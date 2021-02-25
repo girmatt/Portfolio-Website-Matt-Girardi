@@ -5,17 +5,16 @@ main {
 }
 header {
 	background-color: #000000;
-	padding: 10px 10px 1px 25px;
+	padding: 10px 10px 10px 25px;
 	margin: 0px;
-	border-bottom: 3px solid #d3d3d3;
-	border-bottom: 2px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
   text-align: left;
 }
 
 
 /*Layout Styling*/
 
-.container{
+.container {
   padding: 0px;
   background-color: #000000;
 }
@@ -29,6 +28,10 @@ header {
 
 .logo {
   max-width: 250px;
+}
+
+nav {
+  display: flex;
 }
 
 nav > ul {
@@ -202,6 +205,15 @@ li{
   text-decoration: none;
 }
 
+#skillsToolsContainer #skills #tools{
+  padding-top: 10px;
+  display: inline-block;
+}
+
+#skills, #tools{
+  padding-top: 10px;
+}
+
 
 
 /* Image Styling */
@@ -222,7 +234,10 @@ li{
   padding-left: 25px;
 }
 #myPhoto img{
-  max-width: 100%;
+  padding-top: 20px;
+  padding-left: 25px;
+  max-width: 50%;
+  border-radius: 50%;
 }
 
 
