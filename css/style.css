@@ -9,6 +9,7 @@ header {
 	margin: 0px;
 	border-bottom: 1px solid #d3d3d3;
   text-align: left;
+  box-sizing: border-box;
 }
 
 
@@ -17,21 +18,26 @@ header {
 .container {
   padding: 0px;
   background-color: #000000;
+  box-sizing: border-box;
 }
 
 .row {
   margin: 0px 0;
+  box-sizing: border-box;
 }
 
 #work .row { 
+  box-sizing: border-box;
 }
 
 .logo {
   max-width: 250px;
+  box-sizing: border-box;
 }
 
 nav {
   display: flex;
+  box-sizing: border-box;
 }
 
 nav > ul {
@@ -47,6 +53,7 @@ nav > ul > li > a {
 
 #nav{
   text-align: right;
+  box-sizing: border-box;
 }
 
 #hero {
@@ -71,27 +78,13 @@ ul{
   list-style-type: none;
 }
 
-.projectTitle p{
-  text-align: left;
-  display: inline;
-  font-weight: 300;
-  font-size: 1em;
-  color: #ffffff;
-}
-
-.projectInfo a{
-  text-align: right;
-  display: list-item;
-  font-weight: 300;
-  font-size: .8em;
-  color: #000000;
-  text-decoration: underline;
-}
 
 .projectinfo_openradio{
   background-color: #eee9e5; /*container color*/
   margin-top: -10px;
   padding-bottom: -15px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .projectinfo_openradio h3 {
@@ -101,18 +94,23 @@ ul{
   text-decoration: none;
   padding-bottom: 0px;
   padding-left: 25px;
+  box-sizing: border-box;
 }
 .projectinfo_openradio p{
   color: #000000;
   padding-top: 0px;
   font-size: .8em;
   padding-left: 25px;
+  box-sizing: border-box;
 }
+
+
 
 .projectinfo_pocket{
   background-color: #ff9efb; /*container color*/
   margin-top: -10px;
   padding-bottom: -15px;
+  box-sizing: border-box;
 }
 
 .projectinfo_pocket h3 {
@@ -122,12 +120,14 @@ ul{
   text-decoration: none;
   padding-bottom: 0px;
   padding-left: 25px;
+    box-sizing: border-box;
 }
 .projectinfo_pocket p{
   color: #000000;
   padding-top: 0px;
   font-size: .8em;
   padding-left: 25px;
+  box-sizing: border-box;
 }
 
 
@@ -138,10 +138,12 @@ header li {
 footer{
   border-top: 3px solid #d3d3d3;
   border-top: 2px solid #d3d3d3;
+  box-sizing: border-box;
 }
 
 #contact{
   padding-left: 25px;
+  box-sizing: border-box;
 }
 
 #contact #emailCall{
@@ -149,6 +151,7 @@ footer{
   margin: 0px auto;
   text-align: left;
   padding-bottom: 10px;
+  box-sizing: border-box;
 }
 
 #contact .contactme{
@@ -157,15 +160,18 @@ footer{
   font-weight: 300;
   font-size: 1em;
   padding: 25px 0px 10px;
+  box-sizing: border-box;
 }
 
 #socialLinks {
   margin: 10px 0px;
   text-align: left;
+  box-sizing: border-box;
 }
 
 #aboutMeContainer{
   margin-left: 25px;
+  box-sizing: border-box;
 }
 
 
@@ -256,20 +262,24 @@ li{
   width: 100%;
   object-fit: cover;
   image-rendering: auto;
+  box-sizing: border-box;
 }
 
 #logo {
   width: 215px;
+  box-sizing: border-box;
 }
 
 #myphoto{
   padding-left: 25px;
+  box-sizing: border-box;
 }
 #myPhoto img{
   padding-top: 20px;
   padding-left: 25px;
   max-width: 50%;
   border-radius: 50%;
+  box-sizing: border-box;
 }
 
 
@@ -284,6 +294,7 @@ li{
   padding-top: 5px;
   padding-bottom: 3px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .button:hover {
@@ -294,8 +305,10 @@ li{
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 3px;
+  box-sizing: border-box;
 }
 
 .download .button{
   margin-left: 25px;
+  box-sizing: border-box;
 }
