@@ -43,12 +43,14 @@ nav {
 nav > ul {
   list-style-type: none;
   padding: 0px;
+  box-sizing: border-box
 }
 
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: lowercase;
   color: #d3d3d3;
+  box-sizing: border-box
 }
 
 #nav{
@@ -62,6 +64,7 @@ nav > ul > li > a {
   display: inline-block;
   width: 100%;
   text-align: center;
+  box-sizing: border-box
 }
 #hero p {
   text-decoration: underline;
@@ -70,12 +73,14 @@ nav > ul > li > a {
   font-size: 1.5em;
   padding-top: 19px;
   padding-left: 25px;
+  box-sizing: border-box
 }
 
 
 ul{
   display: inline;
   list-style-type: none;
+  box-sizing: border-box
 }
 
 
@@ -186,6 +191,7 @@ body {
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
+  box-sizing: border-box
 }
 
 h1, h2, h3, h4, p {
@@ -193,17 +199,20 @@ h1, h2, h3, h4, p {
   margin: 0px;
   padding: 10px 25px 20px 0px;
   text-align: left;
+  box-sizing: border-box
 }
 h1 {
   font-size: 2.75em;
   font-weight: 700;
   color: #d3d3d3;
+  box-sizing: border-box
 }
 
 h2 {
   font-size: 2.25em;
   font-weight: 700;
   color: #d3d3d3;
+  box-sizing: border-box
 }
 
 h3 {
@@ -212,21 +221,25 @@ h3 {
   color: #FFFFFF;
   text-decoration: none;
   padding-bottom: 0px;
+  box-sizing: border-box
 }
 h4 {
   font-size: 1.35em;
   font-weight: 400;
+  box-sizing: border-box
 }
 p {
   font-weight: 300;
   font-size: 1em;
   color: #ffffff;
+  box-sizing: border-box
 }
 li{
   color: #ffffff;
   font-weight: 300;
   font-size: 1em;
   text-decoration: none;
+  box-sizing: border-box
 }
 
 .titlestyleName{
@@ -235,21 +248,25 @@ li{
   font-weight: 300;
   font-size: 1em;
   padding: 25px 0px 0px;
+  box-sizing: border-box;
 }
 .titlestyle{
   color: #ffffff;
   font-weight: 300;
   font-size: 1em;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 #skillsToolsContainer #skills #tools{
   padding-top: 10px;
   display: inline-block;
+  box-sizing: border-box;
 }
 
 #skills, #tools{
   padding-top: 10px;
+  box-sizing: border-box
 }
 
 
